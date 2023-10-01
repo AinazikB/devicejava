@@ -1,9 +1,9 @@
 public class Laptop extends Device{
-    double memory;
+    int memory;
     double screen_res;
-    double battery;
+    int battery;
 
-    public Laptop(String type, double price, double weight, double m, double screen, double b){
+    public Laptop(String type, double price, double weight, int m, double screen, int b){
         super(type, price, weight);
         this.memory = m;
         this.screen_res = screen;
